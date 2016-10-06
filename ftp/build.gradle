@@ -1,0 +1,11 @@
+apply plugin: 'application'
+
+mainClassName = 'sample.ftp.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'commons-net', name: 'commons-net', version: '3.5'
+}
