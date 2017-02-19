@@ -23,3 +23,16 @@ build/
 gradle-app.setting
 
 
+### https://raw.github.com/github/gitignore/3c0d3149123c828133d66c483fe4340379ef7533/Global/VisualStudioCode.gitignore
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### add
+.vscode
+.settings
+.classpath
+.project
